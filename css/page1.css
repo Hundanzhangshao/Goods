@@ -1,0 +1,116 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+html {
+  font-size: 625%; }
+
+a,
+img {
+  -webkit-tap-highlight-color: transparent; }
+
+input:focus {
+  outline: none; }
+
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px;
+  background: #DCDCDC; }
+
+.container {
+  padding-bottom: .48rem; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.cont {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 10px; }
+  .cont img {
+    width: 100%;
+    height: auto; }
+  .cont dt {
+    width: 100%;
+    height: auto; }
+  .cont dd {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    line-height: 20px; }
+    .cont dd p:nth-of-type(1) {
+      padding: 3px; }
+    .cont dd p:nth-of-type(2) {
+      font-size: 12px;
+      float: right;
+      margin-right: 10px;
+      color: #999; }
+
+.footer {
+  width: 100%;
+  height: .48rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  display: -webkit-flex;
+  overflow: hidden; }
+
+.nav {
+  -webkit-flex-grow: 1;
+  text-align: center;
+  position: relative;
+  font-size: 12px;
+  line-height: 50px;
+  color: #999; }
+  .nav input {
+    position: absolute;
+    opacity: 0; }
+    .nav input:checked + label {
+      color: lightseagreen; }
+  .nav i {
+    display: block;
+    width: 80%;
+    height: 10px;
+    padding-top: 3px;
+    margin: auto;
+    font-size: 20px; }
+
+.back {
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  background: url(../img/up.png) no-repeat;
+  background-size: 100% 100%;
+  opacity: .6;
+  left: 20px; }
+
+.share {
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  background: url(../img/share.png) no-repeat;
+  background-size: 100% 100%;
+  opacity: .6;
+  right: 20px; }

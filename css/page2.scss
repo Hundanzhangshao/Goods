@@ -1,0 +1,173 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	font-family:"微软雅黑";
+}
+
+html {
+	font-size: 625%;
+}
+
+a,
+img {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input:focus {
+	outline: none;
+}
+
+html,
+body,
+.container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-size: 16px;
+	background:#DCDCDC;
+}
+
+.container {
+	padding-top:.48rem;
+	padding-bottom: .48rem;
+}
+.header{
+	width:100%;
+	height:.48rem;
+	background:#fff;
+	border-bottom:1px solid #ccc;
+	position:absolute;
+	top:0;
+	a{
+		position:absolute;
+		left:10px;
+		top:0;
+		bottom:0;
+		margin:auto;
+		width:20px;
+		height:25px;
+		font-size:0;
+		background:url(../img/back.png)no-repeat;
+		background-size:100% 100%;
+	}
+	span{
+		position:absolute;
+		right:10px;
+		top:0;
+		bottom:0;
+		margin:auto;
+		width:20px;
+		height:23px;
+		background:url(../img/delete.png)no-repeat;
+		background-size:100% 100%;
+		font-size:0;
+	}
+	h1{
+		text-align:center;
+		font-size:17px;
+		line-height:.48rem;
+		padding:0 .25rem;
+	}
+}
+.main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.sp{
+	width:100%;
+	height:70px;
+	border-bottom:1px solid #ccc;
+	background:#fff;
+	display:-webkit-flex;
+	&:last-child{
+		border:none;
+	}
+	div{
+		margin-left:10px;
+		&:nth-of-type(1){
+			width:15px;
+			position:relative;
+			input{
+				position:absolute;
+				top:0;
+				bottom:0;
+				margin:auto;
+			}
+		}
+		&:nth-of-type(2){
+			width:60px;
+			height:60px;
+			margin-top:5px;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+		&:nth-of-type(3){
+			width:35%;
+			font-size:14px;
+			padding-top:15px;
+			line-height:20px;
+			p{
+				&:last-child{
+					font-size:12px;
+				}
+			}
+		}
+		&:nth-of-type(4){
+			-webkit-flex:1;
+			margin-top:22px;
+			span{
+				float:right;
+				margin:0 3px;
+				display:block;
+				width:25px;
+				height:25px;
+				line-height:25px;
+				text-align:center;
+				border:1px solid #ccc;
+				&:nth-of-type(2){
+					border:none;
+				}
+			}
+		}
+	}
+}
+.footer {
+	width: 100%;
+	height: .48rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	border-top:1px solid #ccc;
+	display:-webkit-flex;
+	overflow: hidden;
+	line-height:.48rem;
+	text-align:center;
+	font-size:14px;
+	div{
+		margin:0 .15rem;
+		&:last-child{
+			width:75px;
+			height:25px;
+			background:green;
+			font-size:12px;
+			line-height:28px;
+			position:absolute;
+			right:10px;
+			top:0;
+			bottom:0;
+			margin:auto;
+			border-radius:5px;
+			color:#fff;
+		}
+	}
+}

@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import url("reset.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+html {
+  font-size: 625%; }
+
+a,
+img {
+  -webkit-tap-highlight-color: transparent; }
+
+input:focus {
+  outline: none; }
+
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px;
+  background: #DCDCDC; }
+
+.container {
+  padding-bottom: .48rem; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.banner {
+  width: 100%;
+  height: auto; }
+  .banner img {
+    width: 100%;
+    height: auto; }
+
+.bt1 {
+  width: 100%;
+  height: .2rem;
+  line-height: .2rem;
+  text-align: center;
+  font-size: 12px;
+  background: #fff;
+  color: #666; }
+  .bt1 a {
+    color: dodgerblue;
+    font-size: 14px;
+    padding: 0 .05rem; }
+
+.bt2 {
+  background: green;
+  width: 100%;
+  height: .4rem;
+  line-height: .2rem;
+  font-size: 14px;
+  background: #fff;
+  padding: 0 .05rem; }
+
+.bt3 {
+  width: 100%;
+  height: .4rem;
+  background: #fff; }
+  .bt3 span {
+    display: inline-block; }
+    .bt3 span:first-child {
+      width: 110px;
+      height: .3rem;
+      line-height: .3rem;
+      text-align: center;
+      background: #E93810;
+      margin: .05rem;
+      margin-right: 0;
+      font-size: 14px;
+      color: #fff; }
+    .bt3 span:last-child {
+      width: 70px;
+      height: 30px;
+      background: #ccc;
+      color: #fff;
+      line-height: .3rem;
+      text-align: center;
+      font-size: 12px;
+      margin: .05rem;
+      margin-left: -0.05rem; }
+
+.bt4 {
+  width: 100%;
+  height: 30px;
+  background: #fff; }
+  .bt4 p {
+    width: 140px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid orange;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 0.05rem; }
+
+.bt5 {
+  width: 100%;
+  height: .3rem;
+  background: #fff;
+  font-size: 14px;
+  padding-left: .05rem;
+  line-height: .3rem; }
+
+.bt6 {
+  width: 100%;
+  height: .3rem;
+  background: #fff;
+  font-size: 14px;
+  padding-left: .05rem;
+  line-height: .3rem; }
+
+.bt7 {
+  width: 100%;
+  height: .3rem;
+  background: #fff;
+  font-size: 14px;
+  padding-left: .05rem;
+  line-height: .3rem; }
+
+.bt8 {
+  width: 100%;
+  height: .9rem;
+  padding: 0 .3rem;
+  padding-top: .05rem;
+  font-size: 14px;
+  line-height: 20px;
+  color: red; }
+
+h3 {
+  width: 100%;
+  height: .4rem;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  line-height: .4rem;
+  padding-left: .3rem;
+  font-size: 18px; }
+
+.zw {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  line-height: .2rem;
+  font-size: 14px;
+  padding: 0 .08rem;
+  color: #666;
+  text-indent: 2em; }
+
+.zwi {
+  width: 100%;
+  height: 1.5rem;
+  overflow: hidden; }
+  .zwi img {
+    width: 100%;
+    height: 100%; }
+
+.ts {
+  width: 100%;
+  height: .3rem;
+  line-height: .3rem;
+  text-align: center;
+  font-size: 12px; }
+
+.footer {
+  width: 100%;
+  height: .48rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  display: -webkit-flex;
+  overflow: hidden;
+  line-height: .48rem;
+  font-size: 14px; }
+  .footer div {
+    text-align: center;
+    color: #fff; }
+    .footer div:first-child {
+      width: 30%;
+      background: dodgerblue; }
+    .footer div:last-child {
+      -webkit-flex-grow: 1;
+      background: #39A53C; }
